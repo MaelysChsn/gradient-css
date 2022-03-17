@@ -6,8 +6,8 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 function App() {
 
-  const [gradient, setGradient] = useState([{color: '#64d1e4'}, {color: '#f59a22'}, {color: '#b77ed6'}, {rotation: 0}]);
-  const [pourcent, setPourcent] = useState([{pourcent: 20}, {pourcent: 45}, {pourcent: 80}]);
+  const [gradient, setGradient] = useState([{color: '#fff76b'}, {color: '#ff4013'}, {color: '#0042aa'}, {rotation: -120}]);
+  const [pourcent, setPourcent] = useState([{pourcent: -1}, {pourcent: 47}, {pourcent: 116}]);
   const [color, setColor] = useState('');
 
   const handleChangeGradient = (event, index) => {
